@@ -72,7 +72,7 @@ sed -i -e 's/Inherits=.*/Inherits=Hybrid_Light,Papirus,Moka,Adwaita,hicolor/g' /
 rm -rf /usr/share/xsessions/openbox-kde.desktop /usr/share/applications/xfce4-about.desktop /usr/share/pixmaps/archlinux.png /usr/share/pixmaps/archlinux.svg
 
 ## Enable some services.
-services=(ananicy earlyoom)
+services=(ananicy earlyoom irqbalance)
 for service in "${services[@]}"; do
     systemctl enable $service
 done
