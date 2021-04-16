@@ -56,6 +56,7 @@ our $CONFIG = {
                              desktop_files_paths     => [
                                                           "/usr/share/applications",
                                                           "/usr/local/share/applications",
+                                                          "$ENV{HOME}/.local/share/applications",
                                                           "/usr/share/applications/kde4",
                                                         ],
                              gtk_rc_filename         => "~/.gtkrc-2.0",

@@ -1,0 +1,8 @@
+[Desktop Entry]
+NoDisplay=true
+Type=Application
+Exec=midori
+
+[Desktop Action Private]
+NoDisplay=true
+Exec=midori --private
